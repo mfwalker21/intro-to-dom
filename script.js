@@ -11,4 +11,10 @@ const paragraph = document.querySelectorAll(".description");
     console.log(header6); 
     console.log(paragraph);
 
-})
+const changeTextButton = document.getElementById("changeText");
+
+changeTextButton.addEventListener("click", function() {
+    const myParagraph = document.getElementById("myParagraph");
+myParagraph.innerText = "Text has been changed!"; 
+});
+});
